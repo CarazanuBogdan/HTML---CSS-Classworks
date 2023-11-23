@@ -1,0 +1,37 @@
+.Navigation{
+    background-color: aquamarine;
+    color: black;
+    padding: 0;
+    margin:  0;
+}
+
+.Navigation{
+    background-color: brown;
+        color: #000;
+        padding: 20px;
+        text-align: center;
+}
+
+.footer{
+    background-color: antiquewhite;
+    color: darkgreen;
+    padding: 20px;
+    text-align:center;
+    height: 120px;
+}
+
+.Information{
+    background-color: rgb(189, 133, 59);
+    color: rgb(42, 50, 42);
+    padding: 50px;
+    text-align:center;
+    height: 130px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
