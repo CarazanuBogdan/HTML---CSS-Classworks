@@ -6,28 +6,35 @@ body {
 }
 
 header {
-    background-color: #333;
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+u{
+    color: #000000;
+}
+
+.display{
+    display: block;
 }
 
 section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: darksalmon;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 h1, h2 {
-    color: #333;
+    color: #000000;
 }
 
 p {
     line-height: 1.6;
-    color: #666;
+    color: #000000;
 }
 
 .project {
@@ -43,17 +50,16 @@ p {
     position: absolute;
     top: 250px; 
     height: 100vh;
-    overflow: hidden;
 }
 
 .image-container1 {
     border-style: solid;
     border-width: 5px;
+    display:block;
     position: absolute;
     top: 800px; 
     height: 100vh;
-    overflow: hidden;  
-    border-style:p.outset {border-style: outset;} ;
+    overflow: hidden;   ;
 }
 
 .left-image {
@@ -69,3 +75,4 @@ img {
     height: auto;
     object-fit: cover;
 }
+
